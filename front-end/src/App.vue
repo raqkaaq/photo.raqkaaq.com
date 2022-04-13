@@ -8,6 +8,13 @@
       </nav>
     </header>
     <router-view />
+    <div class="footer">
+      <div class="foot">
+        ALL CONTENT COPYRIGHT 2022 RAQKAAQ PHOTOS
+        <br>
+        <a href="https://github.com/raqkaaq/photo.raqkaaq.com.git">Github: photo.raqkaaq.com</a>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -63,5 +70,12 @@ h2 {
 
 .pure-button-primary {
   background-color: #277E8E;
+}
+.footer {
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  position:fixed;
+  bottom: 0;
 }
 </style>
